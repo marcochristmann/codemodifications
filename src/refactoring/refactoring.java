@@ -7,7 +7,6 @@ import animal.Cat;
 import animal.Parrot;
 import vehicle.Car;
 import vehicle.Tires;
-import vehicle.TiresParameter;
 
 public class refactoring {
 	public static Cat cat2;
@@ -31,11 +30,11 @@ public class refactoring {
 		parrot1.babble();
 		b.makeNoise();
 		
-		car1.changeTires(new Tires(new TiresParameter(100000, "Marco's")));
+		car1.changeTires(new Tires(100000, "Marco's"));
 		car1.setMileage(50000);
 		car1.tires.setCurrentRange(10000);
 		
-		car2.changeTires(new Tires(new TiresParameter(20000, "Racings")));
+		car2.changeTires(new Tires(20000, "Racings"));
 		car1.setMileage(5000);
 		car2.tires.setCurrentRange(10000);
 		

@@ -8,10 +8,10 @@ public class Tires {
 	public String manufacturer;
 	
 	//constructor
-	public Tires(TiresParameter parameterObject) {
-		this.maxRange = parameterObject.maxRange;
+	public Tires(int maxRange, String manufacturer) {
+		this.maxRange = maxRange;
 		setCurrentRange(0);
-		this.manufacturer = parameterObject.manufacturer;
+		this.manufacturer = manufacturer;
 	}
 	
 	public int remainingRange() {
