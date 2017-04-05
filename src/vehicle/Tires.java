@@ -17,8 +17,7 @@ public class Tires {
 	public int remainingRange() {
 		int a = currentRange;
 		int b = maxRange;
-		int calculation = a - b;
-		int result = calculation;
+		int result = a - b;
 		return result;
 	}
 	
