@@ -8,7 +8,7 @@ public class Tires {
 	public String manufacturer;
 	
 	//constructor
-	public Tires(int maxRange, String manufacturer, int currentRange) {
+	public Tires(int maxRange, String manufacturer) {
 		this.maxRange = maxRange;
 		setCurrentRange(0);
 		this.manufacturer = manufacturer;
