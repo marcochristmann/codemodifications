@@ -8,19 +8,18 @@ public class Car extends Vehicle {
 		}
 	}
 	
-	//fields
-	public Tires tires;
-	
+	public CarData data = new CarData();
+
 	//constructor
 	public Car(int maxPeople, int topSpeed) {
 		this.maxPeople = maxPeople;
 		this.topSpeed = topSpeed;
 		this.setMileage(0);
-		this.tires = null;
+		this.data.tires = null;
 	}
 	
 	public void changeTires(Tires tires) {
-		this.tires = tires;
+		this.data.tires = tires;
 	}
 	
 	public void playMusic() {

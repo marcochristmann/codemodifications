@@ -32,14 +32,14 @@ public class refactoring {
 		
 		car1.changeTires(new Tires(100000, "Marco's"));
 		car1.setMileage(50000);
-		car1.tires.setCurrentRange(10000);
+		car1.data.tires.setCurrentRange(10000);
 		
 		car2.changeTires(new Tires(20000, "Racings"));
 		car1.setMileage(5000);
-		car2.tires.setCurrentRange(10000);
+		car2.data.tires.setCurrentRange(10000);
 		
-		System.out.println(car1.tires.remainingRange());
-		System.out.println(car2.tires.manufacturer);
+		System.out.println(car1.data.tires.remainingRange());
+		System.out.println(car2.data.tires.manufacturer);
 	}
 
 }
