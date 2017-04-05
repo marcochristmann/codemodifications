@@ -27,7 +27,7 @@ public class refactoring {
 		cat1.makeNoise();
 		cat2.makeNoise();
 		cat3.kill();
-		parrot1.babble("Hello");
+		parrot1.babble();
 		b.makeNoise();
 		
 		car1.changeTires(new Tires(100000, "Marco's"));
