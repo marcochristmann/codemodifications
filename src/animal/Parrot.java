@@ -2,6 +2,8 @@ package animal;
 
 public class Parrot extends Animal {
 	
+	private static final String HELLO = "Hello";
+
 	//constructor
 	public Parrot() {
 	}
@@ -21,7 +23,7 @@ public class Parrot extends Animal {
 	}
 	
 	public void babble() {
-		String s = "Hello";
+		String s = HELLO;
 		System.out.println(s);
 	}
 
