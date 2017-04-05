@@ -2,6 +2,12 @@ package vehicle;
 
 public class Car extends Vehicle {
 	
+	public static class Radio {
+		public static String music() {
+			return "ladidadidu";
+		}
+	}
+	
 	//fields
 	public Tires tires;
 	
