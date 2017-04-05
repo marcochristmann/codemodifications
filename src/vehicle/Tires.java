@@ -1,6 +1,6 @@
 package vehicle;
 
-public class Tires {
+public class Tires extends Equipment {
 	
 	//fields
 	public final int maxRange;
