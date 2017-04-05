@@ -20,8 +20,8 @@ public class Parrot extends Animal {
 		}.noise());		
 	}
 	
-	public void babble() {
-		String s = "Hello";
+	public void babble(String say) {
+		String s = say;
 		System.out.println(s);
 	}
 
