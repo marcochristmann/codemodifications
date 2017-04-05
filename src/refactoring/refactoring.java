@@ -11,7 +11,7 @@ import vehicle.Tires;
 public class refactoring {
 	public static Cat cat2;
 	public static Car car1;
-	public static LinkedList<Cat> animals = new LinkedList<Cat>();
+	public static LinkedList animals = new LinkedList();
 
 	public static void main(String[] args) {
 		Cat cat1 = new Cat("Sylvester", "meow", 4, true);
@@ -22,7 +22,7 @@ public class refactoring {
 		Animal a = new Cat("Pikachu", "pika", 4, true);		
 		Animal b = (Cat) a;
 		animals.add(cat1);
-		Cat cat3 = animals.getFirst();
+		Cat cat3 = (Cat)animals.getFirst();
 		
 		cat1.makeNoise();
 		cat2.makeNoise();
