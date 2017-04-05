@@ -9,22 +9,30 @@ public class Car extends Vehicle {
 	}
 	
 	//fields
-	public Tires tires;
+	private Tires tires;
 	
 	//constructor
 	public Car(int maxPeople, int topSpeed) {
 		this.maxPeople = maxPeople;
 		this.topSpeed = topSpeed;
 		this.setMileage(0);
-		this.tires = null;
+		this.setTires(null);
 	}
 	
 	public void changeTires(Tires tires) {
-		this.tires = tires;
+		this.setTires(tires);
 	}
 	
 	public void playMusic() {
 		System.out.println(Radio.music());
+	}
+
+	public Tires getTires() {
+		return tires;
+	}
+
+	public void setTires(Tires tires) {
+		this.tires = tires;
 	}
 	
 }
