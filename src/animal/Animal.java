@@ -30,4 +30,13 @@ public abstract class Animal {
 		System.out.println(noise);
 	}
 
+
+	protected void makeDyingNoise() {
+		System.out.println(new DyingNoise() {
+			public String noise() {
+				return "raaaw......";
+			}
+		}.noise());		
+	}
+
 }

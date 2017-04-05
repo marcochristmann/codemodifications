@@ -12,14 +12,6 @@ public class Parrot extends Animal {
 		
 	}
 
-	private void makeDyingNoise() {
-		System.out.println(new DyingNoise() {
-			public String noise() {
-				return "raaaw......";
-			}
-		}.noise());		
-	}
-	
 	public void babble() {
 		String s = "Hello";
 		System.out.println(s);
