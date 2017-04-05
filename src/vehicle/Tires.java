@@ -2,6 +2,10 @@ package vehicle;
 
 public class Tires {
 	
+	public static int calculateRemainingRange(Tires tires) {
+		return tires.remainingRange();
+	}
+
 	//fields
 	public final int maxRange;
 	private int currentRange;

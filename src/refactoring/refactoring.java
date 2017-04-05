@@ -38,7 +38,7 @@ public class refactoring {
 		car1.setMileage(5000);
 		car2.tires.setCurrentRange(10000);
 		
-		System.out.println(car1.tires.remainingRange());
+		System.out.println(Tires.calculateRemainingRange(car1.tires));
 		System.out.println(car2.tires.manufacturer);
 	}
 
