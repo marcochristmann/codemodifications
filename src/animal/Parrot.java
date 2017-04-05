@@ -2,8 +2,6 @@ package animal;
 
 public class Parrot extends Animal {
 	
-	private String s;
-
 	//constructor
 	public Parrot() {
 	}
@@ -23,7 +21,7 @@ public class Parrot extends Animal {
 	}
 	
 	public void babble() {
-		s = "Hello";
+		String s = "Hello";
 		System.out.println(s);
 	}
 
