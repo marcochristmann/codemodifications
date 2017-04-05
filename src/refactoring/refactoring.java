@@ -24,6 +24,10 @@ public class refactoring {
 		animals.add(cat1);
 		Cat cat3 = (Cat)animals.getFirst();
 		
+		objectsDoSomething(cat1, parrot1, car2, b, cat3);
+	}
+
+	public static void objectsDoSomething(Cat cat1, Parrot parrot1, Car car2, Animal b, Cat cat3) {
 		cat1.makeNoise();
 		cat2.makeNoise();
 		cat3.kill();
