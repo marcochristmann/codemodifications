@@ -1,6 +1,6 @@
 package vehicle;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle implements IStreetVehicles {
 	
 	public static class Radio {
 		public static String music() {
@@ -19,6 +19,10 @@ public class Car extends Vehicle {
 		this.tires = null;
 	}
 	
+	/* (non-Javadoc)
+	 * @see vehicle.IStreetVehicles#changeTires(vehicle.Tires)
+	 */
+	@Override
 	public void changeTires(Tires tires) {
 		this.tires = tires;
 	}
