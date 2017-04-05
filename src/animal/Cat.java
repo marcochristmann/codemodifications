@@ -2,16 +2,12 @@ package animal;
 
 public class Cat extends Animal {
 	
-	public static Cat createCat(String name, String noise, int feet, boolean hasTail) {
-		return new Cat(name, noise, feet, hasTail);
-	}
-
 	//fields
 	public boolean hasTail;
 	public final String name;
 	
 	//constructor
-	private Cat(String name, String noise, int feet, boolean hasTail) {
+	public Cat(String name, String noise, int feet, boolean hasTail) {
 		this.name = name;
 		this.noise = noise;
 		this.feet = feet;
