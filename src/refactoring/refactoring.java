@@ -1,7 +1,5 @@
 package refactoring;
 
-
-
 import java.util.LinkedList;
 
 import animal.Animal;
