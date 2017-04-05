@@ -1,6 +1,5 @@
 package refactoring;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 import animal.Animal;
@@ -12,7 +11,7 @@ import vehicle.Tires;
 public class refactoring {
 	public static Cat cat2;
 	public static Car car1;
-	public static Deque<Animal> animals = new LinkedList<>();
+	public static LinkedList<Animal> animals = new LinkedList<>();
 
 	public static void main(String[] args) {
 		Cat cat1 = new Cat("Sylvester", "meow", 4, true);
