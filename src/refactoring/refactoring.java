@@ -32,11 +32,11 @@ public class refactoring {
 		parrot1.babble();
 		b.makeNoise();
 		
-		car1.changeTires(new Tires(100000, "Marco's"));
+		car1.changeTires(new Tires(100000, "Marco's", 0));
 		car1.setMileage(50000);
 		car1.tires.setCurrentRange(10000);
 		
-		car2.changeTires(new Tires(20000, "Racings"));
+		car2.changeTires(new Tires(20000, "Racings", 0));
 		car1.setMileage(5000);
 		car2.tires.setCurrentRange(10000);
 		
