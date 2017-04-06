@@ -11,30 +11,6 @@ public class Car extends Vehicle {
 	//fields
 	public Tires tires;
 	
-	public boolean equals(Object arg0) {
-		return tires.equals(arg0);
-	}
-
-	public int getCurrentRange() {
-		return tires.getCurrentRange();
-	}
-
-	public int hashCode() {
-		return tires.hashCode();
-	}
-
-	public int remainingRange() {
-		return tires.remainingRange();
-	}
-
-	public void setCurrentRange(int currentRange) {
-		tires.setCurrentRange(currentRange);
-	}
-
-	public String toString() {
-		return tires.toString();
-	}
-
 	//constructor
 	public Car(int maxPeople, int topSpeed) {
 		this.maxPeople = maxPeople;
