@@ -15,13 +15,13 @@ public class Parrot extends Animal {
 	private void makeDyingNoise() {
 		System.out.println(new DyingNoise() {
 			public String noise() {
-				return Messages.getString("Parrot.0"); //$NON-NLS-1$
+				return "raaaw......";
 			}
 		}.noise());		
 	}
 	
 	public void babble() {
-		String s = Messages.getString("Parrot.1"); //$NON-NLS-1$
+		String s = "Hello";
 		System.out.println(s);
 	}
 
