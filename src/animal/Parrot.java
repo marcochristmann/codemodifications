@@ -24,5 +24,10 @@ public class Parrot extends Animal {
 		String s = "Hello";
 		System.out.println(s);
 	}
+	
+	//implemented methods
+		public void makeNoise() {
+			System.out.println(noise);
+		}
 
 }
