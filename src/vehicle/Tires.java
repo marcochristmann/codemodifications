@@ -14,6 +14,13 @@ public class Tires {
 		this.manufacturer = manufacturer;
 	}
 	
+	public Tires(int maxRange, int currentRange, String manufacturer) {
+		super();
+		this.maxRange = maxRange;
+		this.currentRange = currentRange;
+		this.manufacturer = manufacturer;
+	}
+
 	public int remainingRange() {
 		int a = currentRange;
 		int b = maxRange;
