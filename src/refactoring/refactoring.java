@@ -9,7 +9,7 @@ import animal.Parrot;
 import vehicle.Car;
 import vehicle.Tires;
 
-public class Refactoring {
+public class refactoring {
 	public static Cat cat2;
 	public static Car car1;
 	public static LinkedList<Animal> animals = new LinkedList<>();
