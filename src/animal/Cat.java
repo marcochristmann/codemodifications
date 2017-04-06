@@ -6,6 +6,10 @@ public class Cat extends Animal {
 	public boolean hasTail;
 	public final String name;
 	
+	public String getName() {
+		return name;
+	}
+
 	//constructor
 	public Cat(String name, String noise, int feet, boolean hasTail) {
 		this.name = name;
