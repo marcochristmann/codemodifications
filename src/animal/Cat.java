@@ -20,7 +20,7 @@ public class Cat extends Animal {
 		for (int i = 0; i < this.noise.length(); i++) {
 			sound += this.noise.substring(i, i+1);
 		}
-		if (isAlive()) {
+		if (hasTail) {
 			System.out.println(sound);
 		}
 	}
