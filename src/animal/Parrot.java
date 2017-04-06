@@ -25,4 +25,10 @@ public class Parrot extends Animal {
 		System.out.println(s);
 	}
 
+	@Override
+	public void makeNoise() {
+		// TODO Auto-generated method stub
+		super.makeNoise();
+	}
+
 }
