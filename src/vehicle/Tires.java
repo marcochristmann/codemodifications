@@ -14,7 +14,12 @@ public class Tires {
 		this.manufacturer = manufacturer;
 	}
 	
-	
+	public int remainingRange() {
+		int a = currentRange;
+		int b = maxRange;
+		int result = a - b;
+		return result;
+	}
 	
 	public int getCurrentRange() {
 		return currentRange;
