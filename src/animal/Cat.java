@@ -29,9 +29,4 @@ public class Cat extends Animal {
 		this.noise = "";
 	}
 
-	@Override
-	public String toString() {
-		return "Cat [hasTail=" + hasTail + ", name=" + name + "]";
-	}
-
 }
