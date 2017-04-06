@@ -19,11 +19,6 @@ public class Car extends Vehicle {
 		this.tires = null;
 	}
 	
-	public Car() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	public void changeTires(Tires tires) {
 		this.tires = tires;
 	}
