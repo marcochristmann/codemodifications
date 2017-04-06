@@ -11,7 +11,7 @@ public class Tires {
 	public Tires(int maxRange, String manufacturer) {
 		this.maxRange = maxRange;
 		setCurrentRange(0);
-		manufacturer = manufacturer;
+		this.manufacturer = manufacturer;
 	}
 	
 	public int remainingRange() {
