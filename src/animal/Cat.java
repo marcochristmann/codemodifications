@@ -16,11 +16,11 @@ public class Cat extends Animal {
 
 	@Override
 	public void makeNoise() {
-		String shout = "";
+		String sound = "";
 		for (int i = 0; i < this.noise.length(); i++) {
-			shout += this.noise.substring(i, i+1);
+			sound += this.noise.substring(i, i+1);
 		}
-		System.out.println(shout);
+		System.out.println(sound);
 	}
 	
 	@Override
