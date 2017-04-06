@@ -25,6 +25,9 @@ public abstract class Animal {
 	//abstract methods
 	public abstract void kill();
 	
-	
+	//implemented methods
+	public void makeNoise() {
+		System.out.println(noise);
+	}
 
 }
