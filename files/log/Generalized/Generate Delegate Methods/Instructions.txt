@@ -1,0 +1,5 @@
+1. File: Car.java
+2. Select line 12: Tires
+3. Click: Source -> Generate Delegate Methods
+4. Check: tires (to check all boxes)
+5. Click: OK

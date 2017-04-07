@@ -1,0 +1,16 @@
+diff --git a/src/vehicle/Car.java b/src/vehicle/Car.java
+index 54156a1..5be41d5 100644
+--- a/src/vehicle/Car.java
++++ b/src/vehicle/Car.java
+@@ -19,6 +19,11 @@ public class Car extends Vehicle {
+ 		this.tires = null;
+ 	}
+ 	
++	public Car() {
++		super();
++		// TODO Auto-generated constructor stub
++	}
++
+ 	public void changeTires(Tires tires) {
+ 		this.tires = tires;
+ 	}

@@ -1,0 +1,13 @@
+diff --git a/src/refactoring/refactoring.java b/src/refactoring.java
+similarity index 94%
+rename from src/refactoring/refactoring.java
+rename to src/refactoring.java
+index 167bb85..107c801 100644
+--- a/src/refactoring/refactoring.java
++++ b/src/refactoring.java
+@@ -1,4 +1,4 @@
+-package refactoring;
++
+ 
+ 
+ import java.util.LinkedList;

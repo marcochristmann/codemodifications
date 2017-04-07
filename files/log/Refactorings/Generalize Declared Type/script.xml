@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Generalize declared type of &apos;refactoring.refactoring.animals&apos; to &apos;java.util.Deque&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;refactoring.refactoring.animals&apos;&#x0D;&#x0A;- Original type: &apos;java.util.LinkedList&apos;&#x0D;&#x0A;- Refactored type: &apos;java.util.Deque&apos;" description="Generalize declared type" flags="786434" id="org.eclipse.jdt.ui.change.type" input="/src&lt;refactoring{refactoring.java" project="codemodifications" selection="270 0" type="java.util.Deque&lt;animal.Animal&gt;" version="1.0"/>
+</session>

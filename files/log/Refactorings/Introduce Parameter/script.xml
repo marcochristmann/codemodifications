@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring argument="say" comment="Introduce parameter &apos;say&apos; for &apos;public void animal.Parrot.babble()&apos; from expression &apos;&quot;Hello&quot;&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Parrot.babble()&apos;&#x0D;&#x0A;- Parameter expression: &apos;&quot;Hello&quot;&apos;&#x0D;&#x0A;- Parameter name: &apos;say&apos;" default1="&quot;Hello&quot;" delegate="false" deprecate="true" description="Introduce parameter for &apos;babble&apos;" flags="589830" id="org.eclipse.jdt.ui.introduce.parameter" input="/src&lt;animal{Parrot.java[Parrot~babble" name="babble" parameter1="{added} {added} -1 String say false" project="codemodifications" selection="366 7" version="1.0"/>
+</session>

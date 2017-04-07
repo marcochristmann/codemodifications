@@ -1,0 +1,6 @@
+Prepare
+1. File: Tires.java
+2. Select line 14 from the second manufacturer: cturer
+3. Click: Edit -> Delete
+
+4. Click: Edit -> Word Completion

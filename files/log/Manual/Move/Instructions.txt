@@ -1,0 +1,5 @@
+1. File: refactoring.java
+2. Select refactoring.java in Package Explorer
+3. Click: File -> Move
+4. Select: (default package)
+5. Click: OK	

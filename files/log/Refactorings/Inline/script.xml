@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;vehicle.Tires.remainingRange().a&apos; in &apos;vehicle.Tires.remainingRange()&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;vehicle.Tires.remainingRange().a&apos;" description="Inline local variable &apos;a&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;vehicle{Tires.java" project="codemodifications" selection="403 1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void objectsDoSomething(Cat cat1, Parrot parrot1, Car car2, Animal b, Cat cat3)&apos; from &apos;refactoring.refactoring.main()&apos; to &apos;refactoring.refactoring&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Method name: &apos;objectsDoSomething&apos;&#x0D;&#x0A;- Destination type: &apos;refactoring.refactoring&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;objectsDoSomething&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;refactoring{refactoring.java" name="objectsDoSomething" project="codemodifications" replace="false" selection="698 435" version="1.0" visibility="1"/>
+</session>

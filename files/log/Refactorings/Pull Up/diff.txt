@@ -1,0 +1,38 @@
+diff --git a/src/animal/Animal.java b/src/animal/Animal.java
+index 518c955..8040965 100644
+--- a/src/animal/Animal.java
++++ b/src/animal/Animal.java
+@@ -30,4 +30,13 @@ public abstract class Animal {
+ 		System.out.println(noise);
+ 	}
+ 
++
++	protected void makeDyingNoise() {
++		System.out.println(new DyingNoise() {
++			public String noise() {
++				return "raaaw......";
++			}
++		}.noise());		
++	}
++
+ }
+\ No newline at end of file
+diff --git a/src/animal/Parrot.java b/src/animal/Parrot.java
+index 62bdb73..5aed2e5 100644
+--- a/src/animal/Parrot.java
++++ b/src/animal/Parrot.java
+@@ -12,14 +12,6 @@ public class Parrot extends Animal {
+ 		
+ 	}
+ 
+-	private void makeDyingNoise() {
+-		System.out.println(new DyingNoise() {
+-			public String noise() {
+-				return "raaaw......";
+-			}
+-		}.noise());		
+-	}
+-	
+ 	public void babble() {
+ 		String s = "Hello";
+ 		System.out.println(s);

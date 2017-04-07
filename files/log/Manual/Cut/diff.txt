@@ -1,0 +1,16 @@
+diff --git a/src/animal/Animal.java b/src/animal/Animal.java
+index 518c955..bf673cb 100644
+--- a/src/animal/Animal.java
++++ b/src/animal/Animal.java
+@@ -25,9 +25,6 @@ public abstract class Animal {
+ 	//abstract methods
+ 	public abstract void kill();
+ 	
+-	//implemented methods
+-	public void makeNoise() {
+-		System.out.println(noise);
+-	}
++	
+ 
+ }
+\ No newline at end of file

@@ -1,0 +1,5 @@
+1. File: Parrot.java
+2. Click: Source -> Externalize Strings
+3. Click: Next >
+4. Click: Next >
+5. Click: Finish

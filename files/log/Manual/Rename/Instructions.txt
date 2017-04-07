@@ -1,0 +1,7 @@
+1. File: refactoring.java
+2. Select refactoring.java in the Package Explorer
+3. Click: File -> Rename
+4. Type into New name: Refactoring
+5. Click: Next >
+6. Click: Next >
+7. Click: Finish

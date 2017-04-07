@@ -1,0 +1,29 @@
+diff --git a/src/refactoring/refactoring.java b/src/refactoring/refactoring.java
+index a7f04cf..8089814 100644
+--- a/src/refactoring/refactoring.java
++++ b/src/refactoring/refactoring.java
+@@ -9,20 +9,20 @@ import vehicle.Car;
+ import vehicle.Tires;
+ 
+ public class refactoring {
+-	public static Cat cat2;
++	public static Animal cat2;
+ 	public static Car car1;
+ 	public static LinkedList<Animal> animals = new LinkedList<>();
+ 
+ 	public static void main(String[] args) {
+-		Cat cat1 = new Cat("Sylvester", "meow", 4, true);
++		Animal cat1 = new Cat("Sylvester", "meow", 4, true);
+ 		cat2 = new Cat("Scratchy", "meow", 4, true);
+ 		Parrot parrot1 = new Parrot();
+ 		car1 = new Car(5, 190);
+ 		Car car2 = new Car(2, 260);		
+ 		Animal a = new Cat("Pikachu", "pika", 4, true);		
+-		Animal b = (Cat) a;
++		Animal b = (Animal) a;
+ 		animals.add(cat1);
+-		Cat cat3 = (Cat)animals.getFirst();
++		Animal cat3 = (Animal)animals.getFirst();
+ 		
+ 		cat1.makeNoise();
+ 		cat2.makeNoise();

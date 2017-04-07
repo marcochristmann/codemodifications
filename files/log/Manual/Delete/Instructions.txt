@@ -1,0 +1,4 @@
+1. File: Tires.java
+2. Select from line 17: public int remaintingRange() {}
+3. Select until line 22: }
+3. Click: Edit -> Delete

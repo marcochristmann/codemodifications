@@ -1,0 +1,5 @@
+1. File: Cat.java
+2. Select line 19: sound
+3. Click: Edit -> Find/Replace
+4. Type into Replace with: shout
+5. Click: Replace All

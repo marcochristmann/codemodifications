@@ -1,0 +1,13 @@
+diff --git a/src/vehicle/Tires.java b/src/vehicle/Tires.java
+index e3d9126..9ac9fdc 100644
+--- a/src/vehicle/Tires.java
++++ b/src/vehicle/Tires.java
+@@ -11,7 +11,7 @@ public class Tires {
+ 	public Tires(int maxRange, String manufacturer) {
+ 		this.maxRange = maxRange;
+ 		setCurrentRange(0);
+-		this.manufacturer = manufa;
++		this.manufacturer = manufacturer;
+ 	}
+ 	
+ 	public int remainingRange() {

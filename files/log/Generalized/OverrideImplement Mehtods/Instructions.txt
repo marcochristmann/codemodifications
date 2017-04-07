@@ -1,0 +1,4 @@
+1. File: Parrot.java
+2. Click: Source -> Override/Implement Methods
+3. Check: makeNoise()
+4. Click: OK

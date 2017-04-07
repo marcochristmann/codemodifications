@@ -1,0 +1,5 @@
+1. File: Cat.java
+2. Select line 33
+3. Click: Source -> Generate hashCode() and equals()
+4. Click: OK
+5. Click: OK

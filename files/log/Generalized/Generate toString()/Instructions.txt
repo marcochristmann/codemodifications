@@ -1,0 +1,4 @@
+1. File: Cat.java
+2. Select line 33
+3. Click: Source -> Generate toString()
+4. Click: OK

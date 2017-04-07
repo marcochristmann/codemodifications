@@ -1,0 +1,37 @@
+diff --git a/src/vehicle/Car.java b/src/vehicle/Car.java
+index 54156a1..6b3a2f2 100644
+--- a/src/vehicle/Car.java
++++ b/src/vehicle/Car.java
+@@ -1,6 +1,6 @@
+ package vehicle;
+ 
+-public class Car extends Vehicle {
++public class Car extends Vehicle implements IStreetVehicles {
+ 	
+ 	public static class Radio {
+ 		public static String music() {
+@@ -19,6 +19,10 @@ public class Car extends Vehicle {
+ 		this.tires = null;
+ 	}
+ 	
++	/* (non-Javadoc)
++	 * @see vehicle.IStreetVehicles#changeTires(vehicle.Tires)
++	 */
++	@Override
+ 	public void changeTires(Tires tires) {
+ 		this.tires = tires;
+ 	}
+diff --git a/src/vehicle/IStreetVehicles.java b/src/vehicle/IStreetVehicles.java
+new file mode 100644
+index 0000000..c3564f4
+--- /dev/null
++++ b/src/vehicle/IStreetVehicles.java
+@@ -0,0 +1,7 @@
++package vehicle;
++
++public interface IStreetVehicles {
++
++	void changeTires(Tires tires);
++
++}
+\ No newline at end of file

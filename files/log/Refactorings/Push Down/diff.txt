@@ -1,0 +1,14 @@
+diff --git a/src/animal/Animal.java b/src/animal/Animal.java
+index 518c955..8da0678 100644
+--- a/src/animal/Animal.java
++++ b/src/animal/Animal.java
+@@ -22,9 +22,6 @@ public abstract class Animal {
+ 		this.alive = alive;
+ 	}
+ 	
+-	//abstract methods
+-	public abstract void kill();
+-	
+ 	//implemented methods
+ 	public void makeNoise() {
+ 		System.out.println(noise);

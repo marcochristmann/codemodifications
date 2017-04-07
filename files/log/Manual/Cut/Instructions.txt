@@ -1,0 +1,4 @@
+1. File: Animal.java
+2. Select from line 28: //implemented methods
+3. Select until line 31: }
+3. Click: Edit -> Cut

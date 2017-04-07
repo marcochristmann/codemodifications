@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;calculation&apos; from expression &apos;a - b&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Variable name: &apos;calculation&apos;&#x0D;&#x0A;- Destination method: &apos;vehicle.Tires.remainingRange()&apos;&#x0D;&#x0A;- Variable expression: &apos;a - b&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;calculation&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;vehicle{Tires.java" name="calculation" project="codemodifications" replace="true" selection="403 5" version="1.0"/>
+</session>

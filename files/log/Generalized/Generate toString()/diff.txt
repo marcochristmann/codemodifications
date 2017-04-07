@@ -1,0 +1,14 @@
+diff --git a/src/animal/Cat.java b/src/animal/Cat.java
+index d702d71..2daab2f 100644
+--- a/src/animal/Cat.java
++++ b/src/animal/Cat.java
+@@ -29,4 +29,9 @@ public class Cat extends Animal {
+ 		this.noise = "";
+ 	}
+ 
++	@Override
++	public String toString() {
++		return "Cat [hasTail=" + hasTail + ", name=" + name + "]";
++	}
++
+ }

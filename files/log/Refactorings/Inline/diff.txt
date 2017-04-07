@@ -1,0 +1,15 @@
+diff --git a/src/vehicle/Tires.java b/src/vehicle/Tires.java
+index 9ac9fdc..cdc6ec1 100644
+--- a/src/vehicle/Tires.java
++++ b/src/vehicle/Tires.java
+@@ -15,9 +15,8 @@ public class Tires {
+ 	}
+ 	
+ 	public int remainingRange() {
+-		int a = currentRange;
+ 		int b = maxRange;
+-		int result = a - b;
++		int result = currentRange - b;
+ 		return result;
+ 	}
+ 	

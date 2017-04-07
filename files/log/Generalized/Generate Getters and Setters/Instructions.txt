@@ -1,0 +1,4 @@
+1. File: Cat.java
+2. Select line 7: name;
+3. Click: Source -> Generate Getters and Setters
+4. Click: OK

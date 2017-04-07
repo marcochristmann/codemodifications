@@ -1,0 +1,28 @@
+diff --git a/src/refactoring/refactoring.java b/src/refactoring/refactoring.java
+index a7f04cf..080d14d 100644
+--- a/src/refactoring/refactoring.java
++++ b/src/refactoring/refactoring.java
+@@ -38,7 +38,7 @@ public class refactoring {
+ 		car1.setMileage(5000);
+ 		car2.tires.setCurrentRange(10000);
+ 		
+-		System.out.println(car1.tires.remainingRange());
++		System.out.println(Tires.calculateRemainingRange(car1.tires));
+ 		System.out.println(car2.tires.manufacturer);
+ 	}
+ 
+diff --git a/src/vehicle/Tires.java b/src/vehicle/Tires.java
+index 9ac9fdc..e30c62b 100644
+--- a/src/vehicle/Tires.java
++++ b/src/vehicle/Tires.java
+@@ -2,6 +2,10 @@ package vehicle;
+ 
+ public class Tires {
+ 	
++	public static int calculateRemainingRange(Tires tires) {
++		return tires.remainingRange();
++	}
++
+ 	//fields
+ 	public final int maxRange;
+ 	private int currentRange;

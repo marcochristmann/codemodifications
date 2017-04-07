@@ -1,0 +1,5 @@
+1. File: Cat.java
+2. Select line 24: System.out.println(sound);
+3. Click: Source -> Surround With -> 3 if (if statement)
+4. Type: isAlive()
+5. Press Enter

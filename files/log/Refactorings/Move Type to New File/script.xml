@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move type &apos;vehicle.Car.Radio&apos; in &apos;vehicle.Car&apos; to new file&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;vehicle.Car.Radio&apos;&#x0D;&#x0A;- Field name: &apos;car&apos;&#x0D;&#x0A;- Declare field &apos;final&apos;" description="Move type &apos;Radio&apos; to new file" field="false" fieldName="car" final="true" flags="786438" id="org.eclipse.jdt.ui.move.inner" input="/src&lt;vehicle{Car.java[Car[Radio" mandatory="false" possible="false" project="codemodifications" version="1.0"/>
+</session>

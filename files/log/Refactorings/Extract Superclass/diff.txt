@@ -1,0 +1,28 @@
+diff --git a/src/vehicle/Equipment.java b/src/vehicle/Equipment.java
+new file mode 100644
+index 0000000..2b60bfc
+--- /dev/null
++++ b/src/vehicle/Equipment.java
+@@ -0,0 +1,9 @@
++package vehicle;
++
++public class Equipment {
++
++	public Equipment() {
++		super();
++	}
++
++}
+\ No newline at end of file
+diff --git a/src/vehicle/Tires.java b/src/vehicle/Tires.java
+index 9ac9fdc..55d7946 100644
+--- a/src/vehicle/Tires.java
++++ b/src/vehicle/Tires.java
+@@ -1,6 +1,6 @@
+ package vehicle;
+ 
+-public class Tires {
++public class Tires extends Equipment {
+ 	
+ 	//fields
+ 	public final int maxRange;

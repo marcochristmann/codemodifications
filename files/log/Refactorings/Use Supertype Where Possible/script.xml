@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Use super type &apos;animal.Animal&apos; instead of &apos;animal.Cat&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Cat&apos;&#x0D;&#x0A;- Super type: &apos;animal.Animal&apos;" description="Use super type &apos;Animal&apos;" element1="/src&lt;animal{Animal.java[Animal" flags="589830" id="org.eclipse.jdt.ui.use.supertype" input="/src&lt;animal{Cat.java[Cat" instanceof="false" project="codemodifications" version="1.0"/>
+</session>

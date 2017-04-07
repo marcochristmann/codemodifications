@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sound&apos; in &apos;animal.Cat.makeNoise()&apos; to &apos;shout&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Cat.makeNoise().sound&apos;&#x0D;&#x0A;- Renamed element: &apos;sound&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sound&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;animal{Cat.java[Cat~makeNoise@sound!350!367!357!361!QString;!0!false" name="shout" project="codemodifications" references="true" version="1.0"/>
+</session>

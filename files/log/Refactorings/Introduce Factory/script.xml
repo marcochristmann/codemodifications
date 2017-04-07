@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Introduce factory &apos;createCat&apos; in &apos;animal.Cat&apos; for constructor &apos;animal.Cat.Cat()&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Cat.Cat()&apos;&#x0D;&#x0A;- Factory name: &apos;createCat&apos;&#x0D;&#x0A;- Owner class: &apos;animal.Cat&apos;&#x0D;&#x0A;- Declare original constructor &apos;private&apos;" description="Introduce factory for &apos;Cat&apos;" element1="/src&lt;animal{Cat.java[Cat" flags="589830" id="org.eclipse.jdt.ui.introduce.factory" input="/src&lt;animal{Cat.java" name="createCat" project="codemodifications" protect="true" selection="151 0" version="1.0"/>
+</session>

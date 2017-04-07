@@ -1,0 +1,28 @@
+diff --git a/src/animal/Parrot.java b/src/animal/Parrot.java
+index 62bdb73..6c93434 100644
+--- a/src/animal/Parrot.java
++++ b/src/animal/Parrot.java
+@@ -20,8 +20,8 @@ public class Parrot extends Animal {
+ 		}.noise());		
+ 	}
+ 	
+-	public void babble() {
+-		String s = "Hello";
++	public void babble(String say) {
++		String s = say;
+ 		System.out.println(s);
+ 	}
+ 
+diff --git a/src/refactoring/refactoring.java b/src/refactoring/refactoring.java
+index a7f04cf..4f39d63 100644
+--- a/src/refactoring/refactoring.java
++++ b/src/refactoring/refactoring.java
+@@ -27,7 +27,7 @@ public class refactoring {
+ 		cat1.makeNoise();
+ 		cat2.makeNoise();
+ 		cat3.kill();
+-		parrot1.babble();
++		parrot1.babble("Hello");
+ 		b.makeNoise();
+ 		
+ 		car1.changeTires(new Tires(100000, "Marco's"));

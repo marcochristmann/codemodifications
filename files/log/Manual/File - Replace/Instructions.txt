@@ -1,0 +1,7 @@
+1. File: Cat.java
+2. Click: Search -> File -> File Search
+3. Type into Containting text: sound
+4. Check: Enclosing projects
+5. Click: Replace
+6. Type into With: shout
+6. Click: OK

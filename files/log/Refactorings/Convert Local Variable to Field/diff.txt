@@ -1,0 +1,22 @@
+diff --git a/src/animal/Parrot.java b/src/animal/Parrot.java
+index 62bdb73..f02037e 100644
+--- a/src/animal/Parrot.java
++++ b/src/animal/Parrot.java
+@@ -2,6 +2,8 @@ package animal;
+ 
+ public class Parrot extends Animal {
+ 	
++	private String s;
++
+ 	//constructor
+ 	public Parrot() {
+ 	}
+@@ -21,7 +23,7 @@ public class Parrot extends Animal {
+ 	}
+ 	
+ 	public void babble() {
+-		String s = "Hello";
++		s = "Hello";
+ 		System.out.println(s);
+ 	}
+ 

@@ -1,0 +1,8 @@
+Prepare
+1. File: Cat.java
+2. Select line 19: sound
+3. Click: Refactoring -> Rename
+4. Type: shout
+5. Press Enter
+
+6. Click: Edit -> Undo Rename Local Variable

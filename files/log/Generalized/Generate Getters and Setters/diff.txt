@@ -1,0 +1,15 @@
+diff --git a/src/animal/Cat.java b/src/animal/Cat.java
+index d702d71..dc68fed 100644
+--- a/src/animal/Cat.java
++++ b/src/animal/Cat.java
+@@ -6,6 +6,10 @@ public class Cat extends Animal {
+ 	public boolean hasTail;
+ 	public final String name;
+ 	
++	public String getName() {
++		return name;
++	}
++
+ 	//constructor
+ 	public Cat(String name, String noise, int feet, boolean hasTail) {
+ 		this.name = name;

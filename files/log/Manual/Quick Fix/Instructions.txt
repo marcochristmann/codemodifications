@@ -1,0 +1,7 @@
+Prepare
+1. File: Tires.java
+2. Select line 14: this.
+3. Click: Edit -> Delete
+
+4. Select line 14 the first: manufacter
+5. Double Click: Qualify left hand side

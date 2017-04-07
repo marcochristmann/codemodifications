@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change method &apos;public vehicle.Tires.Tires(int maxRange, String manufacturer)&apos; to &apos;public Tires(int maxRange, String manufacturer, int currentRange)&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;vehicle.Tires.Tires(...)&apos;&#x0D;&#x0A;- Added parameters:&#x0D;&#x0A;     int currentRange" default3="0" delegate="false" deprecate="true" description="Change method &apos;Tires&apos;" flags="589830" id="org.eclipse.jdt.ui.change.method.signature" input="/src&lt;vehicle{Tires.java[Tires~Tires~I~QString;" name="Tires" parameter1="int maxRange 0 int maxRange false" parameter2="String manufacturer 1 String manufacturer false" parameter3="{added} {added} -1 int currentRange false" project="codemodifications" version="1.0"/>
+</session>

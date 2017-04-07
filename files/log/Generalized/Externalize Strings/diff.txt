@@ -1,0 +1,55 @@
+diff --git a/src/animal/Messages.java b/src/animal/Messages.java
+new file mode 100644
+index 0000000..62cf75f
+--- /dev/null
++++ b/src/animal/Messages.java
+@@ -0,0 +1,21 @@
++package animal;
++
++import java.util.MissingResourceException;
++import java.util.ResourceBundle;
++
++public class Messages {
++	private static final String BUNDLE_NAME = "animal.messages"; //$NON-NLS-1$
++
++	private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME);
++
++	private Messages() {
++	}
++
++	public static String getString(String key) {
++		try {
++			return RESOURCE_BUNDLE.getString(key);
++		} catch (MissingResourceException e) {
++			return '!' + key + '!';
++		}
++	}
++}
+diff --git a/src/animal/Parrot.java b/src/animal/Parrot.java
+index 62bdb73..b763f93 100644
+--- a/src/animal/Parrot.java
++++ b/src/animal/Parrot.java
+@@ -15,13 +15,13 @@ public class Parrot extends Animal {
+ 	private void makeDyingNoise() {
+ 		System.out.println(new DyingNoise() {
+ 			public String noise() {
+-				return "raaaw......";
++				return Messages.getString("Parrot.0"); //$NON-NLS-1$
+ 			}
+ 		}.noise());		
+ 	}
+ 	
+ 	public void babble() {
+-		String s = "Hello";
++		String s = Messages.getString("Parrot.1"); //$NON-NLS-1$
+ 		System.out.println(s);
+ 	}
+ 
+diff --git a/src/animal/messages.properties b/src/animal/messages.properties
+new file mode 100644
+index 0000000..131133d
+--- /dev/null
++++ b/src/animal/messages.properties
+@@ -0,0 +1,2 @@
++Parrot.0=raaaw......
++Parrot.1=Hello

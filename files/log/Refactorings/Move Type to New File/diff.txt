@@ -1,0 +1,31 @@
+diff --git a/src/vehicle/Car.java b/src/vehicle/Car.java
+index 54156a1..deb9a53 100644
+--- a/src/vehicle/Car.java
++++ b/src/vehicle/Car.java
+@@ -2,12 +2,6 @@ package vehicle;
+ 
+ public class Car extends Vehicle {
+ 	
+-	public static class Radio {
+-		public static String music() {
+-			return "ladidadidu";
+-		}
+-	}
+-	
+ 	//fields
+ 	public Tires tires;
+ 	
+diff --git a/src/vehicle/Radio.java b/src/vehicle/Radio.java
+new file mode 100644
+index 0000000..f0025fe
+--- /dev/null
++++ b/src/vehicle/Radio.java
+@@ -0,0 +1,7 @@
++package vehicle;
++
++public class Radio {
++	public static String music() {
++		return "ladidadidu";
++	}
++}
+\ No newline at end of file

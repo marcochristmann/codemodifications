@@ -1,0 +1,15 @@
+diff --git a/src/animal/Parrot.java b/src/animal/Parrot.java
+index 62bdb73..7086073 100644
+--- a/src/animal/Parrot.java
++++ b/src/animal/Parrot.java
+@@ -24,5 +24,10 @@ public class Parrot extends Animal {
+ 		String s = "Hello";
+ 		System.out.println(s);
+ 	}
++	
++	//implemented methods
++		public void makeNoise() {
++			System.out.println(noise);
++		}
+ 
+ }

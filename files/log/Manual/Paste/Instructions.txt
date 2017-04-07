@@ -1,0 +1,6 @@
+Prepare with the cut case
+
+1. File Parrot.java
+2. Click in line 26 behind: }
+3. Press two times Enter
+4. Click: Edit -> Paste

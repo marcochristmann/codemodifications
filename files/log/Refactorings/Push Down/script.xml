@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Push down &apos;animal.Animal.kill()&apos; from &apos;animal.Animal&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Animal.kill()&apos;&#x0D;&#x0A;- Pushed members:&#x0D;&#x0A;     animal.Animal.kill()" description="Push down &apos;kill&apos;" element1="/src&lt;animal{Animal.java[Animal~kill" flags="589830" id="org.eclipse.jdt.ui.push.down" input="/src&lt;animal{Animal.java[Animal" project="codemodifications" push1="true" version="1.0"/>
+</session>

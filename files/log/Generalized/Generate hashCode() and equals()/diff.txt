@@ -1,0 +1,37 @@
+diff --git a/src/animal/Cat.java b/src/animal/Cat.java
+index d702d71..88266c6 100644
+--- a/src/animal/Cat.java
++++ b/src/animal/Cat.java
+@@ -29,4 +29,32 @@ public class Cat extends Animal {
+ 		this.noise = "";
+ 	}
+ 
++	@Override
++	public int hashCode() {
++		final int prime = 31;
++		int result = 1;
++		result = prime * result + (hasTail ? 1231 : 1237);
++		result = prime * result + ((name == null) ? 0 : name.hashCode());
++		return result;
++	}
++
++	@Override
++	public boolean equals(Object obj) {
++		if (this == obj)
++			return true;
++		if (obj == null)
++			return false;
++		if (getClass() != obj.getClass())
++			return false;
++		Cat other = (Cat) obj;
++		if (hasTail != other.hasTail)
++			return false;
++		if (name == null) {
++			if (other.name != null)
++				return false;
++		} else if (!name.equals(other.name))
++			return false;
++		return true;
++	}
++
+ }

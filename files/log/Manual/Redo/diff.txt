@@ -1,0 +1,19 @@
+diff --git a/src/animal/Cat.java b/src/animal/Cat.java
+index d702d71..de90006 100644
+--- a/src/animal/Cat.java
++++ b/src/animal/Cat.java
+@@ -16,11 +16,11 @@ public class Cat extends Animal {
+ 
+ 	@Override
+ 	public void makeNoise() {
+-		String sound = "";
++		String shout = "";
+ 		for (int i = 0; i < this.noise.length(); i++) {
+-			sound += this.noise.substring(i, i+1);
++			shout += this.noise.substring(i, i+1);
+ 		}
+-		System.out.println(sound);
++		System.out.println(shout);
+ 	}
+ 	
+ 	@Override

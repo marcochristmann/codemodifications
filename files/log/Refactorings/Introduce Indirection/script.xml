@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Introduce indirection for &apos;vehicle.Tires.remainingRange()&apos; in &apos;vehicle.Tires&apos;&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;vehicle.Tires.remainingRange()&apos;&#x0D;&#x0A;- Method name: &apos;calculateRemainingRange&apos;&#x0D;&#x0A;- Declaring type: &apos;vehicle.Tires&apos;&#x0D;&#x0A;- Update references to refactored element" description="Introduce indirection for &apos;remainingRange&apos;" element1="/src&lt;vehicle{Tires.java[Tires" flags="589830" id="org.eclipse.jdt.ui.introduce.indirection" input="/src&lt;vehicle{Tires.java[Tires~remainingRange" name="calculateRemainingRange" project="codemodifications" references="true" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert anonymous class &apos;animal.Parrot.makeDyingNoise().new DyingNoise() {...}&apos; in &apos;animal.Parrot.makeDyingNoise()&apos; to nested class&#x0D;&#x0A;- Original project: &apos;codemodifications&apos;&#x0D;&#x0A;- Original element: &apos;animal.Parrot.makeDyingNoise().new DyingNoise() {...}&apos;&#x0D;&#x0A;- Class name: &apos;DyingNoise2&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;&#x0D;&#x0A;- Declare class &apos;final&apos;" description="Convert anonymous class to nested" final="true" flags="786434" id="org.eclipse.jdt.ui.convert.anonymous" input="/src&lt;animal{Parrot.java" name="DyingNoise2" project="codemodifications" selection="234 0" static="false" version="1.0" visibility="1"/>
+</session>
